@@ -1,5 +1,5 @@
 #OBJS files to be compiled
-OBJS = card.cpp deck.cpp player.cpp human.cpp computer.cpp round.cpp game.cpp main.cpp
+OBJS = card.cpp deck.cpp combination.cpp book.cpp run.cpp partialBook.cpp partialRun.cpp combinationFinder.cpp player.cpp human.cpp computer.cpp round.cpp game.cpp gameFile.cpp main.cpp
 
 #CC specify compiler
 CC = g++

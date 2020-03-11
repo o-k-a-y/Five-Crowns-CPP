@@ -6,7 +6,9 @@
 #include "partialBook.h"
 #include "partialRun.h"
 #include <unordered_map>   // for storing combinations
-#include <set>            // for retrieving unique cards from a combination
+#include <set>             // for retrieving unique cards from a combination
+#include <memory>	   // smart pointers
+#include <limits.h>	   // INT_MAX INT_MIN
 
 class CombinationFinder
 {
